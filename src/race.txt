@@ -1,0 +1,5 @@
+#
+
+#
+RACE NAME | RACE NAME PLURAL | GENDERS | BODY LAYOUT | SOCIETY |
+human | humans | [M,F] | 2ARMHUMANOID | [ANY]
