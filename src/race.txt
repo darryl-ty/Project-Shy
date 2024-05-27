@@ -1,5 +1,21 @@
 #
-
+    This text file describes the different races present in the base game. You can add your own following the format below.
+    Each column represents a different value for the system to load the race into the game world. They are as follows:
+        RACE NAME - Name of the race to be imported.
+        RACE NAME PLURAL - Plural of the race name (humans, elves, etc).
+        GENDERS - Value can be "M", "F", or "EITHER"
+        BODY LAYOUT - The body layout his race should follow. Please see body_layout.txt for more info on different body types in base game.
+        BODY MATERIAL - The material bodies of this race should be made of. See body_layout.txt for more information on different materials.
+        SOCIETY - Enclose in brackets. Determines the types of societies these races can inhabit. Types are as follows:
+            FEUDAL - Society consisting of a main kingdom ruled by a family with smaller villages or towns owned by lords of those settlements.
+                        May expand through diplomacy or aggression.
+            CITY-STATE - Society consisting of one central city ruled by an elected official or group (i.e. religious group, faction, etc).
+                        Cannot expand but may temporarily occupy other settlements through war.
+            TRIBAL - Society made up of small fortified encampments with a leader either through battle, inheritance, or election.
+                        Can create new encampments and/or occupy other tribal society encampments but can only raze/ransack City-State or Feudal level societies.
+            NOMADIC - Society made up of a constanly moving people. They do not settle nor stay in one area for an extended period of time (no longer than 3 months).
+                        They live in small camps and may settle to create either a tribal or city-state society but also can be nomadic indefinitely.
+            ANY - Any of the above.
 #
-RACE NAME | RACE NAME PLURAL | GENDERS | BODY LAYOUT | SOCIETY |
-human | humans | [M,F] | 2ARMHUMANOID | [ANY]
+RACE NAME | RACE NAME PLURAL | GENDERS | BODY LAYOUT | BODY MATERIAL | SOCIETY |
+human | humans | EITHER | 2ARM2LEG_HUMANOID | FLESH | [ANY]
