@@ -16,6 +16,7 @@
             NOMADIC - Society made up of a constanly moving people. They do not settle nor stay in one area for an extended period of time (no longer than 3 months).
                         They live in small camps and may settle to create either a tribal or city-state society but also can be nomadic indefinitely.
             ANY - Any of the above.
+        RACIAL DESCRIPTION - A description of the race.
 #
-RACE NAME | RACE NAME PLURAL | GENDERS | BODY LAYOUT | BODY MATERIAL | SOCIETY |
-human | humans | EITHER | 2ARM2LEG_HUMANOID | FLESH | [ANY]
+RACE NAME | RACE NAME PLURAL | GENDERS | BODY LAYOUT | BODY MATERIAL | SOCIETY | RACIAL DESCRIPTION
+human | humans | EITHER | 2ARM2LEG_HUMANOID | FLESH | [ANY] | ""
